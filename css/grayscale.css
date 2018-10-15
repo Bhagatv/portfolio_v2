@@ -1,8 +1,4 @@
-/*!
- * Start Bootstrap - Grayscale v5.0.2 (https://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2018 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
- */
+
 
 
 #mainNav {
@@ -422,6 +418,11 @@ td a{
 
 .btn-circle:hover i{
   color: rgba(255,255,255,.5);
+}
+
+
+.m-0{
+  color:black;
 }
 
 
