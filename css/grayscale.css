@@ -1,5 +1,8 @@
 
-
+@font-face{
+  font-family: Varela Round;
+  src: url('https://fonts.googleapis.com/css?family=Varela+Round');
+}
 
 #mainNav {
   min-height: 56px;
@@ -99,7 +102,7 @@
 }
 
 .masthead h1 {
-  font-family: 'Varela Round';
+  font-family: Varela Round;
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
@@ -140,7 +143,7 @@
   -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
-  font-family: 'Varela Round';
+  font-family: Varela Round;
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: .15rem;
@@ -221,7 +224,7 @@
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
-  font-family: 'Varela Round';
+  font-family: Varela Round;
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -239,7 +242,7 @@
 
 .contact-section .card h4 {
   font-size: 0.8rem;
-  font-family: 'Varela Round';
+  font-family: Varela Round;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
@@ -339,7 +342,7 @@ footer {
   color:white;
   font-weight:bold;
   transition:all .2s ease-out;
-  font-family:'Varela Round';
+  font-family:Varela Round;
 }
 #github{
   position:absolute;
@@ -373,7 +376,7 @@ td a{
   font-size:14px;
   padding:5px;
   color:lightgrey;
-  font-family:'Varela Round';
+  font-family:Varela Round;
 }
 
 .footer{
@@ -384,7 +387,7 @@ td a{
   text-align:center;
   width:100%;
   font-size:10px;
-  font-family:'Varela Round';
+  font-family:Varela Round;
   
 }
 
@@ -425,4 +428,22 @@ td a{
   color:black;
 }
 
+#typedjs-container{
+  height:20vh;
+}
+
+
+#typedjs{
+  display:inline;
+  font-size:48px;
+  opacity:.65;
+  font-family:Varela Round;
+}
+
+
+@media screen and (max-width: 500px){
+  #typedjs{
+    font-size:28px;
+  }
+}
 
