@@ -441,9 +441,17 @@ td a{
 }
 
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 375px){
+  #typedjs{
+    font-size:24px;
+  }
+}
+
+@media screen and (max-width: 500px) and (min-width: 376px){
   #typedjs{
     font-size:28px;
   }
 }
+
+
 
