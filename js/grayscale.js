@@ -1,7 +1,7 @@
 (function($) {
   "use strict"; // Start of use strict
   var options = {
-  strings: ["Hello","My name is Veeral Bhagat", "I am a third year computer science major"],
+  strings: ["Hello","My name is Veeral Bhagat", "I am a fourth year computer science major"],
   typeSpeed: 30,
   backSpeed:30,
   loop: true,
